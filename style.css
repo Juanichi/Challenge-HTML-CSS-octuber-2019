@@ -7,6 +7,16 @@ body {
 h1 {
     font-size: 5em;
     }
+
+h2 {
+
+  background-color: bisque;
+  -webkit-transform: skew(10deg);
+  height: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
 h3 {
     width: 200px;
     height: 15px;
@@ -98,6 +108,7 @@ header > div {
 
   .seePlans {
       background-color: #fb3e44;
+      box-shadow: 3px 3px 0px 0px #edc5be;
       color: white;
       border:  1px solid ;
       padding: 10px 55px 10px 55px;
