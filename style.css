@@ -174,8 +174,25 @@ header > div {
 
   .create {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     
   }
+
+ .createOrg {
+  
+  background-color: black;
+  box-shadow: 8px 8px 0px 0px rgba(128, 83, 35, .2);
+  color: white;
+  border:  1px solid ;
+  padding: 10px 55px 10px 55px;
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  
+
+ }
 
   
