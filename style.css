@@ -9,8 +9,8 @@ h1 {
     }
 h3 {
     width: 200px;
-    height: 40px;
-    font-size: 13px;
+    height: 15px;
+    font-size: 14px;
     color: red;
 
 }
@@ -54,6 +54,7 @@ header > div {
   .magnifingGlass {
     background-image: url(images/magnifying-glass.png);
     background-size: 30px;
+    background-repeat: no-repeat;
     width: 800px;
     height: 30px;
   }
@@ -63,9 +64,26 @@ header > div {
     color: white;
     border: 1px solid ;
     width: 100px;
-    height: 30px;
+    height: 40px;
   }
+  .join {
+    color: dimgrey;
+    border: 1px solid;
+    padding: 5px 30px 5px 30px;
+    width: 500px;
+    height: 60px;
+  }
+
+  .logIn {
+    color: dimgrey;
+    padding: 5px 30px 5px 30px;
+    width: 500px;
+    height: 60px;
+  }
+
+  
   .build {
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,9 +94,22 @@ header > div {
   .essential {
     width: 400px;
     height: 100px;
-    
-  
+    }
+
+  .seePlans {
+      background-color: #fb3e44;
+      color: white;
+      border:  1px solid ;
+      padding: 10px 55px 10px 55px;
+      width: 300px;
+      height: 60px;
   }
+  .joinFor {
+      padding: 10px 55px 10px 55px;
+      width: 300px;
+      height: 60px;
+  }
+
 
   .container {
       display: flex;
@@ -104,7 +135,7 @@ header > div {
 
   .final {
       
-      margin: 100px 0 0 0;
+      margin: 100px 0 300px 0;
       padding: 0px 50px;
       display: flex;
       flex-wrap: wrap;
